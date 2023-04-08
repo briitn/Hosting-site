@@ -6,10 +6,10 @@ body {
 
 /* header styles */
 header {
-  background-color: #5654c5;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
-  color: #fff;
+  color: #000000;
 }
 
 header h1 {
@@ -86,21 +86,23 @@ section.about-me p {
 .about-me-link {
   display: inline-block;
   margin: 0 10px;
-  color: #fff;
+  color: #000000;
   background-color: transparent;
   padding: 10px 20px;
   border-radius: 5px;
 }
 
 .about-me-link:hover {
-  background-color: #444;
+
+  transform: scale(1.05); /* scale the card up on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
 }
 /* footer styles */
 footer {
-  background-color: #504f9b;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
-  color: #f4f4f9;
+  color: #000000;
 }
 #p1{
   color: white;
